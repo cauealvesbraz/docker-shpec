@@ -10,7 +10,7 @@ docker run \
 	/tests
 ```
 
-*OBS: You should to mapping your tests to `/shpec-tests`, because the image use it for find the tests*
+**OBS: You should to mapping your tests to `/shpec-tests`, because the image use it for find the tests**
 
 ## Examples
 
