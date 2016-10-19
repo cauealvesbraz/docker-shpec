@@ -2,10 +2,7 @@ version: '2'
 
 services:
   sample:
-    image: ceasbz/shpec:1.0
+    image: ceasbz:shpec:1.0
     volumes:
-      - ./tests:/sample-tests
+      - ./tests:/shpec-tests
     container_name: sample
-    entrypoint:
-      - /usr/local/bin/shpec
-      - /sample-tests
