@@ -5,10 +5,12 @@
 ## Usage
 ```shell
 docker run \
-	-v /path/to/tests/:/tests \
+	-v /path/to/tests/:/shpec-tests \
 	ceasbz/shpec:1.0 \
 	/tests
 ```
+
+*OBS: You should to mapping your tests to `/shpec-tests`, because the image use it for find the tests*
 
 ## Examples
 
