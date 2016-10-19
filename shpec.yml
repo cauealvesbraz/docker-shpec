@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  shpec:
+    build: .
+    volumes:
+      - ./tests:/tests
+    container_name: shpec
+    entrypoint: 
+      - sh
+      - /tests/shpec.sh
