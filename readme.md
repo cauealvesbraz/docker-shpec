@@ -6,7 +6,7 @@
 ```shell
 docker run \
 	-v /path/to/tests/:/tests \
-	ceasbz/shpec \
+	ceasbz/shpec:1.0 \
 	/tests
 ```
 
