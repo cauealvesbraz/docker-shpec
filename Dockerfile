@@ -10,4 +10,4 @@ RUN apk update && \
 
 RUN sh -c "`curl -L https://raw.github.com/rylnd/shpec/master/install.sh`"
 
-CMD ['shpec']
+ENTRYPOINT /usr/local/bin/shpec
