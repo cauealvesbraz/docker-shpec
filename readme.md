@@ -1,4 +1,4 @@
-# docker-shpec [![Build Status](https://travis-ci.org/ceasbz/docker-shpec.svg?branch=master)](https://travis-ci.org/ceasbz/docker-shpec)
+# docker-shpec [![Build Status](https://travis-ci.org/ceasbz/docker-shpec.svg?branch=master)](https://travis-ci.org/ceasbz/docker-shpec) [![](https://images.microbadger.com/badges/version/ceasbz/shpec.svg)](https://microbadger.com/images/ceasbz/shpec) [![](https://images.microbadger.com/badges/image/ceasbz/shpec.svg)](https://microbadger.com/images/ceasbz/shpec)
 
 > Docker image for running tests for shell scripts with [shpec](https://github.com/rylnd/shpec).
 
